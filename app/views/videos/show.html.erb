@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src='https://www.youtube.com/embed/<%= youtube_id%>'allowfullscreen></iframe>
+</div>
+
+
+
+<%= link_to 'Edit', edit_video_path(@video) %> |
+<%= link_to 'Back', videos_path %>

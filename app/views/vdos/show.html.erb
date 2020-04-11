@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @vdo.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @vdo.body %>
+</p>
+
+<%= link_to 'Edit', edit_vdo_path(@vdo) %> |
+<%= link_to 'Back', vdos_path %>

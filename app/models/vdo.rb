@@ -1,0 +1,2 @@
+class Vdo < ApplicationRecord
+end
